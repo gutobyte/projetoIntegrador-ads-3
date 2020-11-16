@@ -1,0 +1,27 @@
+--Criação das tabelas--
+
+CREATE TABLE covidbase
+(
+    codigo int primary key,
+    municipio varchar(50),
+    casos int,
+    obitos int
+);
+
+--Ver a tabela--
+
+select*from covidbase;
+
+
+--Inserir dados na tabela (mudar o dietório da sua máquina)--
+
+COPY covidbase(codigo, municipio, casos, obitos)
+FROM 'C:\Windows\Temp\basedados.csv'
+DELIMITER ','
+CSV HEADER;
+
+--Corrigir números nulos--
+
+UPDATE covidbase SET obitos = 0 WHERE obitos IS NULL;
+
+
