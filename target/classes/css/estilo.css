@@ -5,8 +5,8 @@
     grid-template-areas: 
         'cabeca cabeca cabeca'
         'menu menu menu menu'
-        'promocao jogo1 jogo2 jogo3'
-        'video jogo4 jogo5 propaganda'
+        'conteudo conteudo conteudo'
+        'conteudo conteudo conteudo'
         'footer footer footer footer';
     background-color: #1f1f2e;    
 }

@@ -4,7 +4,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CovidbaseRepository extends CrudRepository<Covidbase, Long>{
+public interface CovidinfoRepository extends CrudRepository<Covidinfo, Long>{
 	
 	
 

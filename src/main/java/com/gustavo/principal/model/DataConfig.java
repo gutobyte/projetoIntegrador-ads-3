@@ -16,7 +16,7 @@ public class DataConfig {
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("org.postgresql.Driver");
-		dataSource.setUrl("jdbc:postgresql://localhost:5432/Covidbase");
+		dataSource.setUrl("jdbc:postgresql://localhost:5432/covidprojeto");
 		dataSource.setUsername("postgres");
 		dataSource.setPassword("gaara");
 		return dataSource;

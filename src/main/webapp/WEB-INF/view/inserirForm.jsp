@@ -25,13 +25,28 @@
 			<a href="/sobre"><li>Sobre</li></a>	
 		</ul>
 	</div>
-	<div>
-		<h2>Cadastro de livros:</h2>
+	<div class="conteudo">
+			<br>
+			<br>
+			<h2>Inserir Informações:</h2>
 			<form action=/inserir method=POST>
-				Código: <input type="text" value="" name="codigo"/><br>
-				Municipio: <input type="text" value="" name="municipio"/><br>
-				Casos: <input type="text" value="" name="casos"/><br><br>
-				Obitos: <input type="text" value="" name="obitos"/><br><br>
+				
+				Data Notificação (apenas números): <input type="text" value="" name="data_notificacao"/><br>
+				Data Início dos Sintomas: <input type="text" value="" name="data_inicio_sintomas"/><br>
+				Ano do episódio: <input type="text" value="" name="ano_epi"/><br>
+				Semana do episódio: <input type="text" value="" name="semana_epi"/><br>
+				Sexo: <input type="text" value="" name="sexo"/><br>
+				Raça Cor: <input type="text" value="" name="raca_cor"/><br>
+				Faixa Etária: <input type="text" value="" name="faixa_etaria"/><br>
+				Diabetes: <input type="text" value="" name="diabetes"/><br>
+				Doença Cardiovascular: <input type="text" value="" name="doenca_cardiovascular"/><br>	
+				Doença_respiratoria: <input type="text" value="" name="doenca_respiratoria"/><br>
+				Imunossupressao: <input type="text" value="" name="imunossupressao"/><br>
+				Código do IBGE: <input type="text" value="" name="codigo_ibge"/><br>
+				Município: <input type="text" value="" name="municipio"/><br>
+				Região Saúde: <input type="text" value="" name="regiao_saude"/><br>
+				Recuperado: <input type="text" value="" name="recuperado"/><br>
+				Profissional Saúde: <input type="text" value="" name="profissional_saude"/><br>			
 				<button type="submit">Inserir</button>
 			</form>	
 	</div>
