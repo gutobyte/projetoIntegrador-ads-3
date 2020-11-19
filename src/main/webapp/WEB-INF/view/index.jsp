@@ -26,6 +26,7 @@
 					<a href="/inserirForm"><li>Inserir</li> </a>
 					<a href="/removerForm"><li>Remover</li></a>
 					<a href="/pesquisarForm"><li>Pesquisar</li></a>
+					<a href="/editarFormCodigo"><li>Editar</li></a>
 				</ul>
 			</li>
 			<a href="/sobre"><li>Sobre</li></a>	

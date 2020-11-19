@@ -64,6 +64,42 @@ public class ControllerJSP {
 			return "dadosEspecificos";
 		}
 		
+		@GetMapping(value="/editarFormCodigo")
+		public String editarFormCodigo() {
+			return "editarFormCodigo";
+		}
+		
+		@GetMapping(value="/editar")
+		public ModelAndView atualizar(Long codigo){
+			ModelAndView dView = new ModelAndView("formEditar");
+			Optional<Covidinfo> corona = cal.findById(codigo);
+			Covidinfo dadosCov = corona.get();
+			dView.addObject("codigo", dadosCov.getCodigo());
+			dView.addObject("data_notificacao", dadosCov.getData_notificacao());
+			dView.addObject("data_inicio_sintomas", dadosCov.getData_inicio_sintomas());
+			dView.addObject("ano_epi", dadosCov.getAno_epi());
+			dView.addObject("semana_epi", dadosCov.getSemana_epi());
+			dView.addObject("sexo", dadosCov.getSexo());
+			dView.addObject("raca_cor", dadosCov.getRaca_cor());
+			dView.addObject("faixa_etaria", dadosCov.getFaixa_etaria());
+			dView.addObject("diabetes", dadosCov.getDiabetes());
+			dView.addObject("doenca_cardiovascular", dadosCov.getDoenca_cardiovascular());
+			dView.addObject("doenca_respiratoria", dadosCov.getDoenca_respiratoria());
+			dView.addObject("imunossupressao", dadosCov.getImunossupressao());
+			dView.addObject("codigo_ibge", dadosCov.getCodigo_ibge());
+			dView.addObject("municipio", dadosCov.getMunicipio());
+			dView.addObject("regiao_saude", dadosCov.getRegiao_saude());
+			dView.addObject("recuperado", dadosCov.getRecuperado());
+			dView.addObject("profissional_saude", dadosCov.getProfissional_saude());		
+			
+	        return dView;
+		}
+		
+		@PostMapping(value="/editar")
+		public String atualizar(Covidinfo covidvirus) {
+			cal.save(covidvirus);
+			return "index";
+	    }
 		
 		
 		
