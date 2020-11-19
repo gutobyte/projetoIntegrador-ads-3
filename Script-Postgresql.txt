@@ -1,27 +1,30 @@
 --Criação das tabelas--
 
-CREATE TABLE covidbase
+CREATE TABLE covidinfo
 (
-    codigo int primary key,
-    municipio varchar(50),
-    casos int,
-    obitos int
+    codigo serial primary key,
+    data_notificacao bigint,
+	data_inicio_sintomas bigint,
+	ano_epi int,
+	semana_epi int,
+	sexo varchar(50),
+	raca_cor varchar(50),
+	faixa_etaria varchar(50),
+	diabetes varchar(50),
+	doenca_cardiovascular varchar(50),
+	doenca_respiratoria varchar(50),
+	imunossupressao varchar(50),
+	codigo_ibge bigint,
+	municipio varchar(50),
+	regiao_saude varchar(50),
+	recuperado varchar(50),
+	profissional_saude varchar(50)
 );
 
 --Ver a tabela--
 
-select*from covidbase;
+--select*from covidinfo;
 
 
---Inserir dados na tabela (mudar o dietório da sua máquina)--
-
-COPY covidbase(codigo, municipio, casos, obitos)
-FROM 'C:\Windows\Temp\basedados.csv'
-DELIMITER ','
-CSV HEADER;
-
---Corrigir números nulos--
-
-UPDATE covidbase SET obitos = 0 WHERE obitos IS NULL;
 
 
