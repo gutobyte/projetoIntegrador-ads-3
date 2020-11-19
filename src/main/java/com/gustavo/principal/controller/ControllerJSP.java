@@ -85,5 +85,13 @@ public class ControllerJSP {
 	    }
 		
 		
+		@PostMapping(value="/remover")
+		public ModelAndView remover(Long codigo){
+			ModelAndView mv = new ModelAndView("removidoSucesso");
+	        cal.deleteById(codigo);
+			return mv;
+		}
+		
+		
 
 }

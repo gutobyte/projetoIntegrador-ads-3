@@ -26,6 +26,14 @@
 			<a href="/sobre"><li>Sobre</li></a>	
 		</ul>
 	</div>
+	<div class="conteudo">
+		<h2>Insira o Código da base de dados que deseja remover:</h2>
+			<form action=/remover method=POST>
+			Codigo: <input type="text" value="" name="codigo"/><br>
+			<button type="submit">Remover</button>
+	</form>
+	
+	</div>
 
 </body>
 </html>
