@@ -27,6 +27,8 @@
 		</ul>
 	</div>
 	<div class="conteudo">
+		<br>
+    	<br>
 		<h2>Insira o Código da base de dados que deseja remover:</h2>
 			<form action=/remover method=POST>
 			Codigo: <input type="text" value="" name="codigo"/><br>

@@ -54,6 +54,19 @@ public class ControllerJSP {
 			return "pesquisarForm";
 		}
 		
+		@GetMapping(value="/dadosGerais")
+		public String dadosGerais() {
+			return "dadosGerais";
+		}
+		
+		@GetMapping(value="/dadosEspecificos")
+		public String dadosEspecificos() {
+			return "dadosEspecificos";
+		}
+		
+		
+		
+		
 		
 
 		//Metodo post que pegará os dados do formulario inserir e persistira no banco e depois redireciona para a página inseridoSucesso.jsp

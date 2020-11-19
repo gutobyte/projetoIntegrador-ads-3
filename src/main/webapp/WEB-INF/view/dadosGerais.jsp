@@ -6,8 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body class="corpo">
+<body>
 
-	<h3>Dados removidos com sucesso. Para retornar a Página Inicial Clique Aqui ou  Ínicio no topo da Página.</h3>
 </body>
 </html>
