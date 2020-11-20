@@ -64,6 +64,17 @@ public class ControllerJSP {
 			return "dadosEspecificos";
 		}
 		
+		
+		/*
+		
+		Ao clicar em editar em opções será redirecionado para editarformcodigo que contem um form pedindo o código
+		este form possui uma acao do tipo get 'editar' e este get alem de pegar os dados no banco de dados
+		redireciona o usúario para a página 'formEditar' que contém um form completo do tipo post
+		
+		*
+		*/
+		
+		
 		@GetMapping(value="/editarFormCodigo")
 		public String editarFormCodigo() {
 			return "editarFormCodigo";
@@ -98,7 +109,8 @@ public class ControllerJSP {
 		@PostMapping(value="/editar")
 		public String atualizar(Covidinfo covidvirus) {
 			cal.save(covidvirus);
-			return "index";
+			
+			return "editarConcluido";
 	    }
 		
 		

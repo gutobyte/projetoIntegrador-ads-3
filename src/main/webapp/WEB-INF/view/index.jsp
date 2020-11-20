@@ -6,10 +6,13 @@
 <link rel="stylesheet" type="text/css" href="resources/css/estilo.css"/>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+	
 </head>
-<body class="corpo">
-	<div class="cabeca">
-		<img class="banner" src="https://i.imgur.com/Sv7bbeW.png"/>	
+	
+<body class="page">
+	<div class="banner">
+	CORONAVÍRUS NO ESTADO DE GOIÁS
+			
 	</div>
 	<div class="menu">
 		<ul>

@@ -7,9 +7,9 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body class="corpo">
+<body class="page">
 <div class="cabeca">
-		<img class="banner" src="https://i.imgur.com/Sv7bbeW.png"/>	
+		coronavirus estado de goias	
 	</div>
 	<div class="menu">
 		<ul>

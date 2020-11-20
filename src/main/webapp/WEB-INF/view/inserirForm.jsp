@@ -7,9 +7,9 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body class="corpo">
-	<div class="cabeca">
-		<img class="banner" src="https://i.imgur.com/Sv7bbeW.png"/>	
+<body class="page">
+	<div class="banner">
+		CORONAVÍRUS NO ESTADO DE GOIÁS
 	</div>
 	<div class="menu">
 		<ul>
@@ -33,8 +33,7 @@
 		</ul>
 	</div>
 	<div class="conteudo">
-			<br>
-			<br>
+			
 			<h2>Inserir Informações:</h2>
 			<form action=/inserir method=POST>
 				
