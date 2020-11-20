@@ -20,11 +20,11 @@ setInterval(redirecionar, 500);
 <link rel="stylesheet" type="text/css" href="resources/css/estilo.css"/>
 <meta http-equiv="Refresh" content="5; url=/" />
 <meta charset="ISO-8859-1">
-<title>Inserção concluída!!!</title>
+<title>Inserção Concluída!!!</title>
 </head>
 <body class="page">
 	<div class="banner">
-		coronavirus estado de goias
+		CORONAVÍRUS NO ESTADO DE GOIÁS
 	</div>
 	<div class="menu">
 		<ul>

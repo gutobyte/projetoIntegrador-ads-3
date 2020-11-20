@@ -35,6 +35,11 @@
 			<a href="/sobre"><li>Sobre</li></a>	
 		</ul>
 	</div>
+	<div class="conteudo">
+	<h3>Pândemia da COVID-19 no Estado de Goiás</h3>
+	
+	
+	</div>
 </body>
 	
 	

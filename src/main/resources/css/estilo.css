@@ -8,7 +8,7 @@
         'menu menu menu'
         'conteudo conteudo conteudo'
         'conteudo conteudo conteudo'
-        'conteudo conteudo conteudo';
+        'footer footer footer';
     background-color: #94d3f5;   
 }
 .corpo{
@@ -30,8 +30,8 @@ grid-area: conteudo;
 	grid-area: banner;
 	color: white;
 	background-color: #1500ff;
-	background-size:800%;
 	font-size: 600%;
+	width: 100%;  
 }
 
 

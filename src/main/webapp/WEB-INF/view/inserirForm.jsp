@@ -5,7 +5,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="resources/css/estilo.css"/>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Inserir</title>
 </head>
 <body class="page">
 	<div class="banner">

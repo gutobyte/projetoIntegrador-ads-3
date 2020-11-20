@@ -5,12 +5,12 @@
 <head>
 <link rel="stylesheet" type="text/css" href="resources/css/estilo.css"/>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Pesquisar</title>
 </head>
-<body class="corpo">
+<body class="page">
 
-	<div class="cabeca">
-		<img class="banner" src="https://i.imgur.com/Sv7bbeW.png"/>	
+	<div class="banner">
+		CORONAVÍRUS NO ESTADO DE GOIÁS	
 	</div>
 	<div class="menu">
 		<ul>
@@ -27,6 +27,7 @@
 					<a href="/inserirForm"><li>Inserir</li> </a>
 					<a href="/removerForm"><li>Remover</li></a>
 					<a href="/pesquisarForm"><li>Pesquisar</li></a>
+					<a href="/editarFormCodigo"><li>Editar</li></a>
 				</ul>
 			</li>
 			<a href="/sobre"><li>Sobre</li></a>	

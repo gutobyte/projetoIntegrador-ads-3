@@ -5,12 +5,12 @@
 <head>
 <link rel="stylesheet" type="text/css" href="resources/css/estilo.css"/>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Remover</title>
 </head>
-<body class="corpo">
+<body class="page">
 
-	<div class="cabeca">
-		<img class="banner" src="https://i.imgur.com/Sv7bbeW.png"/>	
+	<div class="banner">
+		CORONAVÍRUS NO ESTADO DE GOIÁS
 	</div>
 	<div class="menu">
 		<ul>
@@ -36,7 +36,7 @@
 	<div class="conteudo">
 		<br>
     	<br>
-		<h2>Insira o Código da base de dados que deseja remover:</h2>
+		<h2>Código para remoção:</h2>
 			<form action=/remover method=POST>
 			Codigo: <input type="text" value="" name="codigo"/><br>
 			<button type="submit">Remover</button>

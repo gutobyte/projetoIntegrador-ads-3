@@ -19,11 +19,11 @@ setInterval(redirecionar, 500);
 </script>
 <link rel="stylesheet" type="text/css" href="resources/css/estilo.css"/>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Remoção Concluída!!!</title>
 </head>
 <body class="page">
-<div class="cabeca">
-		coronavirus estado de goias
+<div class="banner">
+		CORONAVÍRUS NO ESTADO DE GOIÁS
 	</div>
 	<div class="menu">
 		<ul>
