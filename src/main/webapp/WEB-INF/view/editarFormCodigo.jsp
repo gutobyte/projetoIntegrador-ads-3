@@ -7,7 +7,7 @@
 <meta charset="ISO-8859-1">
 <title>Editar Código</title>
 </head>
-<body class="corpo">
+<body class="page">
 	<div class="banner">
 		CORONAVÍRUS NO ESTADO DE GOIÁS
 	</div>
@@ -26,14 +26,14 @@
 			<a href="/sobre"><li>Sobre</li></a>	
 		</ul>
 	</div>
-	<br>
-	<br>
+	<div class="conteudo">
 	<h2>Código dos dados que deseja editar:</h2>
 	<form action=/editar method=GET>
 	Codigo: <input type="text" value="" name="codigo"/><br>
 	<button type="submit">Ediar</button>
 	
 	</form>
+	</div>
 	
 
 </body>

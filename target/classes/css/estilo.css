@@ -1,16 +1,28 @@
+
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
+
 .page {
-    padding: 0%;
+    padding: 0px;
     display: grid;
-    grid-gap: 0%;
-    margin:0%;
+    grid-gap: 5px;
+    margin:10px;
     grid-template-areas: 
         'banner banner banner'
         'menu menu menu'
         'conteudo conteudo conteudo'
         'conteudo conteudo conteudo'
         'footer footer footer';
-    background-color: #94d3f5;   
+    background-color: #94d3f5;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;   
 }
+
+
 .corpo{
 	
 	background-color: #94d3f5;
@@ -19,21 +31,24 @@
 }
 
 .conteudo{
-	
+
+
 grid-area: conteudo;
 
 
 	
 }
-
-.banner{
-	grid-area: banner;
-	color: white;
-	background-color: #1500ff;
-	font-size: 600%;
-	width: 100%;  
+@supports (-webkit-text-stroke: 2px black) {
+	.banner{
+		grid-area: banner;
+		color: white;
+		background-color: #1500ff;
+		font-size: 600%;
+		width: 100%;  
+		-webkit-text-stroke: 2px black;
+    	-webkit-text-fill-color: white;
+	}
 }
-
 
 
 .menu{
@@ -85,3 +100,14 @@ grid-area: conteudo;
 	
 
 	
+	.result{
+	border: 2px solid black;
+	border-color: white;
+	margin-right: 80px;
+	margin-left: 80px;
+	color: white;
+	font-size:30px;
+	font-weight:2px;
+	
+	}
+
