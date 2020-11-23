@@ -3,6 +3,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Cidades', 'Total Casos'],
+          ['Goiânia',     68549],
+          ['Aparecida de Goiânia',      37943],
+          ['Anápolis',  13939],
+          ['Rio Verde', 13268],
+        ]);
+
+        var options = {
+          title: 'Dados Gerais - Covid-19 - Casos nas 04 maiores cidades'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+
+
 <link rel="stylesheet" type="text/css" href="resources/css/estilo.css"/>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
@@ -16,29 +43,11 @@
 	</div>
 	<div class="menu">
 		<ul>
-			<a href="/"><li>Início</li></a>
-			<li>Dados
-				<ul>
-					<a href="/dadosGerais"><li>Dados Gerais</li> </a>
-					<a href="/dadosEspecificos"><li>Dados Específicos</li></a>
-				</ul>
-			
-			</li>
-			<li>Opções
-				<ul>
-					<a href="/inserirForm"><li>Inserir</li> </a>
-					<a href="/removerForm"><li>Remover</li></a>
-					<a href="/pesquisarForm"><li>Pesquisar</li></a>
-					<a href="/editarFormCodigo"><li>Editar</li></a>
-				</ul>
-			</li>
-			<a href="/sobre"><li>Sobre</li></a>	
+			<a href="/"><li>Voltar</li></a>
 		</ul>
 	</div>
 	<div class="conteudo">
-	
-	
-	
+	<div id="piechart" style="width: 900px; height: 500px;"></div>
 	</div>
 </body>
 	
