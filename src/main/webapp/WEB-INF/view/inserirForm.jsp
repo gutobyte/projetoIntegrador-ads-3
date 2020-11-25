@@ -9,18 +9,12 @@
 </head>
 <body class="page">
 	<div class="banner">
-		CORONAVÍRUS NO ESTADO DE GOIÁS
+		INSERIR
 	</div>
 	<div class="menu">
 		<ul>
 			<a href="/"><li>Início</li></a>
-			<li>Dados
-				<ul>
-					<a href="/dadosGerais"><li>Dados Gerais</li> </a>
-					<a href="/dadosEspecificos"><li>Dados Específicos</li></a>
-				</ul>
-			
-			</li>
+			<a href="/dados"><li>Dados</li> </a>
 			<li>Opções
 				<ul>
 					<a href="/inserirForm"><li>Inserir</li> </a>

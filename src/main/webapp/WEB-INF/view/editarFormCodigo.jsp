@@ -9,12 +9,12 @@
 </head>
 <body class="page">
 	<div class="banner">
-		CORONAVÍRUS NO ESTADO DE GOIÁS
+		Editar
 	</div>
 	<div class="menu">
 		<ul>
 			<a href="/"><li>Início</li></a>
-			<a href="teste.html"><li>Gráficos</li></a>
+			<a href="/dados"><li>Dados</li></a>
 			<li>Opções
 				<ul>
 					<a href="/inserirForm"><li>Inserir</li> </a>
@@ -29,7 +29,7 @@
 	<div class="conteudo">
 	<h2>Código dos dados que deseja editar:</h2>
 	<form action=/editar method=GET>
-	Codigo: <input type="text" value="" name="codigo"/><br>
+	Código: <input type="text" value="" name="codigo"/><br>
 	<button type="submit">Ediar</button>
 	
 	</form>

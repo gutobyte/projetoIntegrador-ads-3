@@ -10,18 +10,13 @@
 <body class="page">
 
 	<div class="banner">
-		CORONAVÍRUS NO ESTADO DE GOIÁS	
+		PESQUISAR	
 	</div>
 	<div class="menu">
 		<ul>
 			<a href="/"><li>Início</li></a>
-			<li>Dados
-				<ul>
-					<a href="/dadosGerais"><li>Dados Gerais</li> </a>
-					<a href="/dadosEspecificos"><li>Dados Específicos</li></a>
-				</ul>
-			
-			</li>
+		    <a href="/dadosGerais"><li>Dados</li> </a>
+				
 			<li>Opções
 				<ul>
 					<a href="/inserirForm"><li>Inserir</li> </a>
@@ -36,7 +31,7 @@
 	<div class="conteudo">
 	<h2>Insira o código que deseja pesquisar:</h2>
 	<form action=/pesquisar method=POST>
-	Codigo: <input type="text" value="" name="codigo"/><br>
+	Código: <input type="text" value="" name="codigo"/><br>
 	<button type="submit">Pesquisar</button>
 	
 	</form>

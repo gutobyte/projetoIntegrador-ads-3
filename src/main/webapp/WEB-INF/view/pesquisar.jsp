@@ -20,23 +20,23 @@
 		<div class="conteudo">	
 			<div class="result">
 		
-				Codigo: <%= request.getAttribute("codigo")%>	<br>
-				Data Notificação (apenas números): <%= request.getAttribute("data_notificacao")%> <br>
-				Data Início dos Sintomas: <%= request.getAttribute("data_inicio_sintomas")%> <br>
-				Ano do episódio: <%= request.getAttribute("ano_epi")%> <br>
-				Semana do episódio:<%= request.getAttribute("semana_epi")%> <br>
-				Sexo: <%= request.getAttribute("sexo")%> <br>
-				Raça Cor: <%= request.getAttribute("raca_cor")%> <br>
-				Faixa Etária:<%= request.getAttribute("faixa_etaria")%> <br>
-				Diabetes: <%= request.getAttribute("diabetes")%> <br>
-				Doença Cardiovascular: <%= request.getAttribute("doenca_cardiovascular")%> <br>
-				Doença_respiratoria: <%= request.getAttribute("doenca_respiratoria")%> <br>
-				Imunossupressao: <%= request.getAttribute("imunossupressao")%>" <br>
-				Código do IBGE: <%= request.getAttribute("codigo_ibge")%>" <br>
-				Município: <%= request.getAttribute("municipio")%>" <br>
-				Região Saúde: <%= request.getAttribute("regiao_saude")%> <br>
-				Recuperado:<%= request.getAttribute("recuperado")%>" <br>
-				Profissional Saúde:<%= request.getAttribute("profissional_saude")%> <br>
+				Código: <div style="color: red"> <%= request.getAttribute("codigo")%></div><br>
+				Data Notificação (apenas números): <div style="color: red"> <%= request.getAttribute("data_notificacao")%></div><br>
+				Data Início dos Sintomas: <div style="color: red"> <%= request.getAttribute("data_inicio_sintomas")%></div><br>
+				Ano do episódio: <div style="color: red"><%= request.getAttribute("ano_epi")%></div><br>
+				Semana do episódio: <div style="color: red"><%= request.getAttribute("semana_epi")%></div><br>
+				Sexo: <div style="color: red"><%= request.getAttribute("sexo")%></div><br>
+				Raça e Cor: <div style="color: red"><%= request.getAttribute("raca_cor")%></div><br>
+				Faixa Etária: <div style="color: red"><%= request.getAttribute("faixa_etaria")%></div><br>
+				Diabetes: <div style="color: red"><%= request.getAttribute("diabetes")%></div><br>
+				Doença Cardiovascular: <div style="color: red"><%= request.getAttribute("doenca_cardiovascular")%></div><br>
+				Doença respiratória: <div style="color: red"><%= request.getAttribute("doenca_respiratoria")%></div><br>
+				Imunossupressão: <div style="color: red"><%= request.getAttribute("imunossupressao")%></div><br>
+				Código do IBGE: <div style="color: red"><%= request.getAttribute("codigo_ibge")%></div><br>
+				Município: <div style="color: red"><%= request.getAttribute("municipio")%></div><br>
+				Região da Saúde: <div style="color: red"><%= request.getAttribute("regiao_saude")%></div><br>
+				Recuperado: <div style="color: red"><%= request.getAttribute("recuperado")%></div><br>
+				Profissional de Saúde: <div style="color: red"><%= request.getAttribute("profissional_saude")%></div><br>
 			
 			</div>
 		

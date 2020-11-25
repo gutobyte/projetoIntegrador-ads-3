@@ -55,14 +55,9 @@ public class ControllerJSP {
 			return "pesquisarForm";
 		}
 		
-		@GetMapping(value="/dadosGerais")
-		public String dadosGerais() {
-			return "dadosGerais";
-		}
-		
-		@GetMapping(value="/dadosEspecificos")
-		public String dadosEspecificos() {
-			return "dadosEspecificos";
+		@GetMapping(value="/dados")
+		public String dados() {
+			return "dados";
 		}
 		
 		
@@ -179,5 +174,32 @@ public class ControllerJSP {
 		}
 		
 		
-
+		
+		@GetMapping(value="/teste")
+		public String teste() {
+			return "teste";
+			}
+		
+		@GetMapping(value="/teste2")
+		public String teste2() {
+			return "teste2";
+		}
+		
+		
+		@PostMapping(value="/teste")
+		public ModelAndView contarCidade(String municipio) {
+			ModelAndView dView = new ModelAndView("teste2");
+			long count = cal.countByMunicipio(municipio);
+			dView.addObject("municipio", count);
+			return dView;
+		}
+		
+		@PostMapping(value="/dados")
+		public ModelAndView dados(String municipio) {
+			ModelAndView dView = new ModelAndView("dadosResult");
+			long count = cal.countByMunicipio(municipio);
+			dView.addObject("municipio", count);
+			dView.addObject("nome", municipio);
+			return dView;
+		}
 }
