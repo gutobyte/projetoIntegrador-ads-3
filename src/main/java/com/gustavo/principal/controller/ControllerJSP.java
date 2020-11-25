@@ -184,22 +184,28 @@ public class ControllerJSP {
 		public String teste2() {
 			return "teste2";
 		}
-		
+		@GetMapping(value="/muniDados")
+		public String muniDados() {
+			return "muniDados";
+		}
 		
 		@PostMapping(value="/teste")
-		public ModelAndView contarCidade(String municipio) {
+		public ModelAndView contarCidade(String municipio, String sexo) {
 			ModelAndView dView = new ModelAndView("teste2");
 			long count = cal.countByMunicipio(municipio);
 			dView.addObject("municipio", count);
+			
 			return dView;
 		}
+	
 		
+		/*
 		@PostMapping(value="/dados")
-		public ModelAndView dados(String municipio) {
+		public ModelAndView dados(String municipio, String sexo) {
 			ModelAndView dView = new ModelAndView("dadosResult");
 			long count = cal.countByMunicipio(municipio);
 			dView.addObject("municipio", count);
 			dView.addObject("nome", municipio);
 			return dView;
-		}
+		}*/
 }

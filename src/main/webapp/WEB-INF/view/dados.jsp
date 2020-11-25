@@ -20,11 +20,8 @@
 		</ul>
 	</div>
 	<div class="conteudo">
-		<h2>Qual Cidade?</h2>
-		<form action=/dados method=POST>
-			Nome: <input type="text" value="" name="municipio"/><br>
-			<button type="submit">Pesquisar</button>
-		</form>
+		<iframe width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=8d273756-ff25-4d13-8f59-f1c2f8360ba1&autoAuth=true&ctid=18d5025d-7665-4d8b-9e3f-4e32edccbb5d&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1iLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true">
+		</iframe>
 	</div>
 </body>
 	

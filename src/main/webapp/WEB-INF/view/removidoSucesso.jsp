@@ -28,13 +28,9 @@ setInterval(redirecionar, 500);
 	<div class="menu">
 		<ul>
 			<a href="/"><li>Início</li></a>
-			<li>Dados
-				<ul>
-					<a href="/dadosGerais"><li>Dados Gerais</li> </a>
-					<a href="/dadosEspecificos"><li>Dados Específicos</li></a>
-				</ul>
+		    <a href="/dadosGerais"><li>Dados</li> </a>
+					
 			
-			</li>
 			<li>Opções
 				<ul>
 					<a href="/inserirForm"><li>Inserir</li> </a>
