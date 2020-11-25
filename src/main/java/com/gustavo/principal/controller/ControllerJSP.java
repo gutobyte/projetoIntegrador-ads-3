@@ -136,7 +136,8 @@ public class ControllerJSP {
 			dView.addObject("municipio", dadosCov.getMunicipio());
 			dView.addObject("regiao_saude", dadosCov.getRegiao_saude());
 			dView.addObject("recuperado", dadosCov.getRecuperado());
-			dView.addObject("profissional_saude", dadosCov.getProfissional_saude());		
+			dView.addObject("profissional_saude", dadosCov.getProfissional_saude());
+			dView.addObject("codigo", dadosCov.getCodigo());
 			return dView;
 	    }
 		
@@ -169,6 +170,7 @@ public class ControllerJSP {
 			dView.addObject("regiao_saude", dadosCov.getRegiao_saude());
 			dView.addObject("recuperado", dadosCov.getRecuperado());
 			dView.addObject("profissional_saude", dadosCov.getProfissional_saude());
+			dView.addObject("codigo", dadosCov.getCodigo());
 			
 	        return dView;
 		}

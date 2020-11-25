@@ -5,7 +5,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="resources/css/estilo.css"/>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Dados</title>
 </head>
 <body class="page">
 	<div class="banner">
@@ -14,13 +14,9 @@
 	<div class="menu">
 		<ul>
 			<a href="/"><li>Início</li></a>
-			<li>Dados
-				<ul>
-					<a href="/dadosGerais"><li>Dados Gerais</li> </a>
-					<a href="/dadosEspecificos"><li>Dados Específicos</li></a>
-				</ul>
+		    <a href="/dados"><li>Dados</li> </a>
+					
 			
-			</li>
 			<li>Opções
 				<ul>
 					<a href="/inserirForm"><li>Inserir</li> </a>
@@ -32,8 +28,19 @@
 		</ul>
 	</div>
 	<div class="conteudo">
+	<h3>Projeto Integrador 2020/2 - Análise e Desenvolvimento de Sistemas - Módulo 03</h3><br>
+	<h2>Integrantes:</h2>
+				<div style="color:red"> <h2>Carlos Caiado<br>
+				Gustavo Moreira<br>
+				João Claudio<br>
+				João Vitor<br>
+				</h2></div>
+	<div style="color:blue"><h2><a href="https://www.go.senac.br/">Faculdade SENAC Goiás</a></h2><br>
+		</div>
 	
 	</div>
+	
+	
 
 </body>
 </html>

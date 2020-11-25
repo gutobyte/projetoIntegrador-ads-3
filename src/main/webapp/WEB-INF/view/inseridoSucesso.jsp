@@ -3,22 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script type="text/javascript">
-var contador = 10;
-function contar() {
-    document.getElementById('contador').innerHTML = contador;
-    contador--;
-}
-function redirecionar() {
-    contar();
-    if (contador == 0) {
-        document.location.href = '/';
-    }
-}
-setInterval(redirecionar, 500);
-</script>
+
 <link rel="stylesheet" type="text/css" href="resources/css/estilo.css"/>
-<meta http-equiv="Refresh" content="5; url=/" />
+
 <meta charset="ISO-8859-1">
 <title>Inserção Concluída!!!</title>
 </head>
@@ -29,13 +16,8 @@ setInterval(redirecionar, 500);
 	<div class="menu">
 		<ul>
 			<a href="/"><li>Início</li></a>
-			<li>Dados
-				<ul>
-					<a href="/dadosGerais"><li>Dados Gerais</li> </a>
-					<a href="/dadosEspecificos"><li>Dados Específicos</li></a>
-				</ul>
-			
-			</li>
+			<a href="/dados"><li>Dados</li> </a>
+					
 			<li>Opções
 				<ul>
 					<a href="/inserirForm"><li>Inserir</li> </a>
@@ -48,9 +30,10 @@ setInterval(redirecionar, 500);
 		</ul>
 	</div>
 	<div class="concluido">
-		Os dados foram inseridos com sucesso.
-		Você será redirecionado para nossa página inicial em... <label id="contador"></label>
-		<p>Por favor, se não for redirecionado <a href="/">Clique aqui</a>.</p>
+		<h3>Seu código:</h3> <div style="color: red"> <%= request.getAttribute("codigo")%></div>
+		Os dados foram inseridos com sucesso. Guarde o código caso queira editar ou remover os dados.
+		
+		<p>Para retornar a página inicial <a href="/">Clique aqui</a>. Ou 'Início' no botão no menu.</p>
 	</div>
 
 </body>

@@ -62,8 +62,11 @@ trabalho
 	
 </div>
 	</div>
-
+	
 </body>
-	
-	
+<footer class="page">
+<div class="footer">
+Alunos de Análise e Desenvolvimento de Sistemas - Módulo 3 - Projeto Integrador - 2020 - Faculdade Senac- GO.
+</div>
+</footer>
 </html>
