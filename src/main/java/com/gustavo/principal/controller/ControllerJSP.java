@@ -3,13 +3,10 @@ package com.gustavo.principal.controller;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.gustavo.principal.model.Covidinfo;
@@ -17,8 +14,6 @@ import com.gustavo.principal.model.CovidinfoRepository;
 
 
 @Controller
-
-
 public class ControllerJSP {
 	
 	@Autowired
@@ -176,38 +171,8 @@ public class ControllerJSP {
 		}
 		
 		
-		
-		@GetMapping(value="/teste")
-		public String teste() {
-			return "teste";
-			}
-		
-		@GetMapping(value="/teste2")
-		public String teste2() {
-			return "teste2";
-		}
 		@GetMapping(value="/muniDados")
 		public String muniDados() {
 			return "muniDados";
 		}
-		
-		@PostMapping(value="/teste")
-		public ModelAndView contarCidade(String municipio, String sexo) {
-			ModelAndView dView = new ModelAndView("teste2");
-			long count = cal.countByMunicipio(municipio);
-			dView.addObject("municipio", count);
-			
-			return dView;
-		}
-	
-		
-		/*
-		@PostMapping(value="/dados")
-		public ModelAndView dados(String municipio, String sexo) {
-			ModelAndView dView = new ModelAndView("dadosResult");
-			long count = cal.countByMunicipio(municipio);
-			dView.addObject("municipio", count);
-			dView.addObject("nome", municipio);
-			return dView;
-		}*/
 }
