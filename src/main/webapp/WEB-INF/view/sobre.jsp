@@ -33,7 +33,7 @@
 				<div style="color:red"> <h2>Carlos Caiado<br>
 				Gustavo Moreira<br>
 				João Claudio<br>
-				João Vitor<br>
+				Vitor Almeida Pires<br>
 				</h2></div>
 	<div style="color:blue"><h2><a href="https://www.go.senac.br/">Faculdade SENAC Goiás</a></h2><br>
 		</div>

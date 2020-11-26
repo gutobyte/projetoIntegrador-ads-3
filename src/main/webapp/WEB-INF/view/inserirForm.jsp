@@ -40,7 +40,7 @@
 				Faixa Etária: <input type="text" value="" name="faixa_etaria"/><br>
 				Diabetes: <input type="text" value="" name="diabetes"/><br>
 				Doença Cardiovascular: <input type="text" value="" name="doenca_cardiovascular"/><br>	
-				Doença_respiratoria: <input type="text" value="" name="doenca_respiratoria"/><br>
+				Doença respiratoria: <input type="text" value="" name="doenca_respiratoria"/><br>
 				Imunossupressao: <input type="text" value="" name="imunossupressao"/><br>
 				Código do IBGE: <input type="text" value="" name="codigo_ibge"/><br>
 				Município: <input type="text" value="" name="municipio"/><br>
